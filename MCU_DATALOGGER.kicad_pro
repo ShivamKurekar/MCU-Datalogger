@@ -226,7 +226,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|914400|787400|a8c195c4-d194-400e-b40e-bcc04216e335|00000000-0000-0000-0000-000000000000|/5f39d14e-0ef9-452b-b6b7-4a46ee7d59d6|/5f39d14e-0ef9-452b-b6b7-4a46ee7d59d6|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -419,7 +424,7 @@
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -488,7 +493,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "/VCC"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
