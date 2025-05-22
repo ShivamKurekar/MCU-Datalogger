@@ -3121,6 +3121,17 @@
 			(uuid "88b183e6-85df-4d3e-908b-799fda6060e3")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Libraries/DS1337S_/DS1337S_.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -6678,6 +6689,17 @@
 			(uuid "a3cd4808-c042-4cdb-a444-64cc600cc4ee")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Libraries/ATMEGA328P-AU/ATMEGA328P-AU.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
